@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Jhill161/techdegree-project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.2",
     "pug": "^2.0.4"
   }
 }
