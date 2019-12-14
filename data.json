@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "List Pagination Project",
+            "description": "Test Description for List Pagination",
+            "technologies": "Vanilla JavaScript, HTML, CSS",
+            "live_link": "Test Link",
+            "github_link": "Github link",
+            "images_url": ["./images/List Pagination Screenshot.png", "./images/List Pagination Screenshot 2"],
+
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Interactive Form with real time validation in jQuery",
+            "technologies": "jQuery, HTML, CSS",
+            "live_link": "Test Link",
+            "github_link": "Github link",
+            "images_url": ["./images/Interactive Form Screenshot.png", "./images/Interactive Form Screenshot 2"],
+            
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter Game using OOP",
+            "description": "Guess the phrase game using OOP",
+            "technologies": "Vanilla JavaScript, HTML, CSS",
+            "live_link": "Test Link",
+            "github_link": "Github link",
+            "images_url": ["./images/Phrase Hunter Screenshot.png", "./images/Phrase Hunter Screenshot 2"],
+            
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request Project",
+            "description": "User Directory for a startup that dynamically creates gallery cards and modal on click for random users generated from a public API",
+            "technologies": "Vanilla JavaScript, HTML, CSS",
+            "live_link": "Test Link",
+            "github_link": "Github link",
+            "images_url": ["./images/Public API Screenshot.png", "./images/Public API Screenshot 2"],
+            
+        },
+        {
+            "id": 5,
+            "project_name": "Static Node.js / Express Portfolio Site",
+            "description": "Static Portfolio site created with node.js, express, and pug",
+            "technologies": "Vanilla JavaScript, HTML, CSS, Node.js, Express, Pug",
+            "live_link": "Test Link",
+            "github_link": "Github link",
+            "images_url": ["./images/List Pagination Screenshot.png", "./images/List Pagination Screenshot 2"],
+            
+        }
+    ]
+}
