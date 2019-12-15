@@ -27,7 +27,7 @@ app.listen(3000, () => {
 
 //Error Handler
 app.use(function (err, req, res, next) {
-    console.error(err.stack);
+    console.error(err.error);
     res.status(404).send('Sorry, resource not found! Our Bad!');
     next();
 });
