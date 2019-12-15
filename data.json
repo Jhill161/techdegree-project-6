@@ -7,7 +7,7 @@
             "technologies": "Vanilla JavaScript, HTML, CSS",
             "live_link": "Test Link",
             "github_link": "Github link",
-            "images_url": ["/static/List Pagination Screenshot/static/List Pagination Screenshot 2"]
+            "images_url": ["/static/images/List Pagination Screenshot.png", "/static/List Pagination Screenshot 2.png"]
 
         },
         {
@@ -17,7 +17,7 @@
             "technologies": "jQuery, HTML, CSS",
             "live_link": "Test Link",
             "github_link": "Github link",
-            "images_url": ["/static/InteractiveFormScreenshot.png", "/static/Interactive Form Screenshot 2"]
+            "images_url": ["/static/images/InteractiveFormScreenshot.png", "/static/images/Interactive Form Screenshot 2.png"]
             
         },
         {
@@ -27,7 +27,7 @@
             "technologies": "Vanilla JavaScript, HTML, CSS",
             "live_link": "Test Link",
             "github_link": "Github link",
-            "images_url": ["/static/Phrase Hunter Screenshot.png", "/static/Phrase Hunter Screenshot 2"]
+            "images_url": ["/static/images/Phrase Hunter Screenshot.png", "/static/images/Phrase Hunter Screenshot 2.png"]
             
         },
         {
@@ -37,7 +37,7 @@
             "technologies": "Vanilla JavaScript, HTML, CSS",
             "live_link": "Test Link",
             "github_link": "Github link",
-            "images_url": ["/static/Public API Screenshot.png", "/static/Public API Screenshot 2"]
+            "images_url": ["/static//images/Public API Screenshot.png", "/static/images/Public API Screenshot 2.png"]
             
         },
         {
@@ -47,7 +47,7 @@
             "technologies": "Vanilla JavaScript, HTML, CSS, Node.js, Express, Pug",
             "live_link": "Test Link",
             "github_link": "Github link",
-            "images_url": ["/static/List Pagination Screenshot.png", "/static/List Pagination Screenshot 2"]
+            "images_url": ["/static/images/List Pagination Screenshot.png", "/static/images/List Pagination Screenshot 2.png"]
             
         }
     ]
