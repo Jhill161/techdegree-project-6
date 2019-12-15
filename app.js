@@ -23,7 +23,7 @@ app.use('/static', express.static('public'));
 
 // Server
 const port_number = server.listen(process.env.PORT || 3000);
-app.listen(port_number, () => {
+app.listen(process.env.PORT, () => {
     console.log('The application is running on localhost:3000!');
 });
 
