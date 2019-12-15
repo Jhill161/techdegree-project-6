@@ -20,14 +20,26 @@ app.set('view engine', 'pug');
 // Route for static files
 app.use('/static', express.static('public'));
 
+
 // Server
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
 });
 
-//Error Handler
-app.use(function (err, req, res, next) {
-    console.error(err.error);
-    res.status(404).send('Sorry, resource not found! Our Bad!');
-    next();
+// Error Handler
+app.use((req, res, next) => {
+    const err = new Error('Sorry, page not found!');
+    err.status = 404;
+    console.error('Sorry, page not found!')
+    //pass error to the next matching route.
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.status(err.status || 500);
+
+    res.render('error', {
+        message: err.message,
+        error: err
+    });
 });

@@ -3,7 +3,9 @@ const router = express.Router();
 
 const {projects} = require('../data.json');  // grabs data.projects
 
-router.get('/:id', (req, res) => {  
+
+// Declare each project info with 'project[id]' to reference each project page via id using {id} = req.params, pass into project template as {info}
+router.get('/projects/:id', (req, res) => {  
     const {id} = req.params;
     const {
         project_name,
@@ -23,7 +25,7 @@ router.get('/:id', (req, res) => {
     };
 
 // send info to project template
-    res.render('project', info);
+    res.render('project', {info});
 });
 
 module.exports = router;
