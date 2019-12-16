@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,p{
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #0071a6;
 }
 
 a{
@@ -43,7 +43,7 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: #0071a6;
 }
 
 .image{
@@ -79,7 +79,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #0071a6;
   }
 
 .portfolio-breadcrumb{
@@ -148,3 +148,18 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.animation{ 
+    animation: fadeInAnimation ease 0.8s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
