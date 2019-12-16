@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": 4,
+            "id": 0,
             "project_name": "Static Node.js / Express Portfolio Site",
             "description": "Static Portfolio site created with node.js, express, and pug",
             "technologies": ["Vanilla JavaScript, HTML, CSS, Node.js, Express, Pug"],
@@ -11,7 +11,7 @@
             
         },
         {
-            "id": 3,
+            "id": 1,
             "project_name": "Public API Request Project",
             "description": "User Directory for a startup that dynamically creates gallery cards and modal on click for random users generated from a public API",
             "technologies": ["Vanilla JavaScript, HTML, CSS"],
@@ -31,7 +31,7 @@
             
         },
         {
-            "id": 1,
+            "id": 3,
             "project_name": "Interactive Form",
             "description": "Interactive Form with real time validation in jQuery",
             "technologies": ["jQuery, HTML, CSS"],
@@ -41,7 +41,7 @@
             
         },
         {
-            "id": 0,
+            "id": 4,
             "project_name": "List Pagination Project",
             "description": "List Pagination project with real time search functionality",
             "technologies": ["Vanilla JavaScript, HTML, CSS"],

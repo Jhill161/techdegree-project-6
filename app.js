@@ -30,7 +30,6 @@ app.listen(process.env.PORT || 3000, () => {
 app.use((req, res, next) => {
     const err = new Error('Sorry, page not found!');
     err.status = 404;
-    console.error(err)
     //pass error to the next matching route.
     next(err);
 });
@@ -38,7 +37,7 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     res.status(err.status || 500);
-
+    console.error(err)
     res.render('error', {
         message: err.message,
         error: err
